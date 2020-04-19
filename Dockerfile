@@ -11,10 +11,10 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 COPY . /var/www
 RUN composer install && \
 	chmod 775 storage -R
-#	cp .env.example .env && \
-#	php artisan key:generate && \
-#	php artisan config:cache \
-#	php artisan migrate
+	cp .env.example .env && \
+	php artisan key:generate && \
+	php artisan config:cache \
+	php artisan migrate
 
 
 RUN ln -s public html
