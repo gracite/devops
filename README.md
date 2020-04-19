@@ -3,3 +3,7 @@
 - Docker
 - PHP-FPM
 - Laravel
+- Docker Compose
+- NGINX
+- Redis
+- Db Heath Check
