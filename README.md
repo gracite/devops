@@ -7,3 +7,6 @@
 - NGINX
 - Redis
 - Db Heath Check
+
+
+Imagem docker: https://hub.docker.com/repository/docker/jhow33/app/
