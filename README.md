@@ -1,11 +1,13 @@
 ## DEVOPS - Microservices Ambient
 
 - Docker
+- Docker Compose
+- Dockerize
 - PHP-FPM
 - Laravel
-- Docker Compose
 - NGINX
 - Redis
+- Template replacement
 - Db Heath Check
 
 
